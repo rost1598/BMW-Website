@@ -1,3 +1,46 @@
 body {
  background-image: url("bmw background.jpg");
+ background-repeat: no repeat;
+ background-size: auto;
 }
+header li {
+  float: left;
+}
+header li a {
+  display: block;
+  font-family: "Franklin Gothic Medium";
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 136px;
+  text-decoration: none;
+}
+header li a:hover {
+  background-color: blue;
+color: black;}
+img {
+	width: 200px; height: 200px; position:relative; left: 1100px; top: 100px; transition: transform .2s;
+}
+main{
+	padding: 0 10px;
+}
+#Greetings{
+	display: inline-block;
+	width: 485px;
+	text-align: right;
+	position: relative; left: 450px; top: 50px;
+	}
+#Info {text-align: center; position: relative; top: 50px; font-family: "Brush Script MT"; font-size: 19px;
+}
+img:hover { transform: scale(1.5); 
+}
+#Go {position: relative; top: 110px; left: 1130px;
+}
+footer {position:absolute;
+   bottom:0;
+width:100%;}
+#sup {
+display: inline-block; width: 500px; position: relative; left: 900px; top: 200px;
+}
+#pic3 {display: inline-block; size: 500px; position: relative; right: 900px;}
+	
